@@ -23,9 +23,9 @@ export default function Home() {
                 <img src="/snake-1.png" className="w-full" />
               </div>
               <h1 className="relative w-fit tracking-tight text-balance mt-16 font-bold !leading-tight text-gray-900 text-5xl md:text-6xl lg:text-7xl">
-                Your Image on a{" "}
-                <span className="bg-purple-600 px-2 text-white">Custom</span>{" "}
-                Phone Case
+                Sua imagem{" "}
+                <span className="bg-purple-600 px-2 text-white">Personalizada</span>{" "}
+                na sua capinha
               </h1>
               <p className="mt-8 text-lg lg:pr-10 max-w-prose text-center lg:text-left text-balance md:text-wrap">
                 Capture your favorite memories with your own,{" "}
@@ -38,15 +38,15 @@ export default function Home() {
                 <div className="space-y-2">
                   <li className="flex gap-1.5 items-center text-left">
                     <Check className="h-5 w-5 shrink-0 text-purple-600" />
-                    High-quality, durable material
-                  </li>
-                  <li className="flex gap-1.5 items-center text-left">
-                    <Check className="h-5 w-5 shrink-0 text-purple-600" />5 year
-                    print guarantee
+                    Alta qualidade, material durável
                   </li>
                   <li className="flex gap-1.5 items-center text-left">
                     <Check className="h-5 w-5 shrink-0 text-purple-600" />
-                    Modern iPhone models supported
+                    5 anos de garantia
+                  </li>
+                  <li className="flex gap-1.5 items-center text-left">
+                    <Check className="h-5 w-5 shrink-0 text-purple-600" />
+                    Suporta modelos atuais de Iphone
                   </li>
                 </div>
               </ul>
@@ -90,7 +90,7 @@ export default function Home() {
                   </div>
 
                   <p>
-                    <span className="font-semibold">1.250</span> happy customers
+                    <span className="font-semibold">1.250</span> compradores
                   </p>
                 </div>
               </div>
@@ -118,12 +118,12 @@ export default function Home() {
         <MaxWidthWrapper className="flex flex-col items-center gap-16 sm:gap-32">
           <div className="flex flex-col lg:flex-row items-center gap-4 sm:gap-6">
             <h2 className="order-1 mt-2 tracking-tight text-center text-balance !leading-tight font-bold text-5xl md:text-6xl text-gray-900">
-              What our{" "}
+              O que os nossos{" "}
               <span className="relative px-2">
-                customers{" "}
+                clientes{" "}
                 <Icons.underline className="hidden sm:block pointer-events-none absolute inset-x-0 -bottom-7 text-purple-600" />
               </span>{" "}
-              say
+              dizem
             </h2>
             <img src="/snake-2.png" className="w-24 order-0 lg:order-2" />
           </div>
@@ -140,13 +140,15 @@ export default function Home() {
               </div>
               <div className="text-lg leading-8">
                 <p>
-                  "The case feels durable and I even got a compliment on the
-                  design. Had the case for two and a half months now and
+                  "Estou muito satisfeito com minha nova capinha personalizada! 
+                  A qualidade é incrível e o design realmente se destaca. J
+                  á estou com ela há dois meses e meio e a {' '}
                   <span className="p-0.5 bg-slate-800 text-white">
-                    the image is super clear
-                  </span>
-                  , on the case I had before, the image started fading into
-                  yellow-ish color after a couple weeks. Love it."
+                   imagem ainda está super clara
+                  </span> 
+                  ,o que é uma grande diferença em relação à minha capinha anterior, 
+                  que começou a desbotar em algumas semanas. Estou apaixonado pela minha nova capinha!
+                  
                 </p>
               </div>
               <div className="flex gap-4 mt-2">
@@ -159,7 +161,7 @@ export default function Home() {
                   <p className="font-semibold">Jonathan</p>
                   <div className="flex gap-1.5 items-center text-zinc-600">
                     <Check className="h-4 w-4 stroke-[3px] text-purple-600" />
-                    <p className="text-sm">Verified Purchase</p>
+                    <p className="text-sm">Compra verificada</p>
                   </div>
                 </div>
               </div>
@@ -178,14 +180,11 @@ export default function Home() {
               </div>
               <div className="text-lg leading-8">
                 <p>
-                  "I usually keep my phone together with my keys in my pocket
-                  and that led to some pretty heavy scratchmarks on all of my
-                  last phone cases. This one, besides a barely noticeable
-                  scratch on the corner,
-                  <span className="p-0.5 bg-slate-800 text-white">
-                    looks brand new after about half a year
-                  </span>
-                  . I dig it."
+                  "Estou realmente impressionado com a durabilidade desta capinha personalizada! 
+                  Costumo carregar meu celular junto com as chaves no bolso, o que acabou deixando 
+                  arranhões bem visíveis em todas as minhas últimas capinhas. Mas esta, além de 
+                  ter apenas um arranhão quase imperceptível no canto, 
+                  parece nova em folha depois de cerca de meio ano de uso. Estou adorando!"
                 </p>
               </div>
               <div className="flex gap-4 mt-2">
@@ -198,7 +197,7 @@ export default function Home() {
                   <p className="font-semibold">Brendon</p>
                   <div className="flex gap-1.5 items-center text-zinc-600">
                     <Check className="h-4 w-4 stroke-[3px] text-purple-600" />
-                    <p className="text-sm">Verified Purchase</p>
+                    <p className="text-sm">Compra verificada</p>
                   </div>
                 </div>
               </div>
@@ -216,11 +215,11 @@ export default function Home() {
           <div className="mb-12 px-6 lg:px-8">
             <div className="mx-auto max-w-2xl sm:text-center">
               <h2 className="order-1 mt-2 tracking-tight text-center text-balance !leading-tight font-bold text-5xl md:text-6xl text-gray-900">
-                Upload your photo and get{" "}
-                <span className="px-2 bg-purple-600 text-white">
-                  your own case{" "}
+                Escolha sua foto e crie{" "}
+                <span className="px-2 bg-purple-600 text-white text-nowrap">
+                  sua capa personalizada{" "}
                 </span>{" "}
-                now
+                agora
               </h2>
             </div>
           </div>
@@ -246,19 +245,15 @@ export default function Home() {
           <ul className="mx-auto mt-12 max-w-prose sm:text-lg space-y-2 w-fit">
             <li className="w-fit">
               <Check className="h-5 w-5 text-purple-600 inline mr-1.5" />
-              High-quality silicone material
+              Material de alta qualidade
             </li>
             <li className="w-fit">
               <Check className="h-5 w-5 text-purple-600 inline mr-1.5" />
-              Scratch- and fingerprint resistant coating
+              Resistente a quedas e arranhados
             </li>
             <li className="w-fit">
               <Check className="h-5 w-5 text-purple-600 inline mr-1.5" />
-              Wireless charging compatible
-            </li>
-            <li className="w-fit">
-              <Check className="h-5 w-5 text-purple-600 inline mr-1.5" />5 year
-              print warranty
+              Compatível ao carregamento wireless
             </li>
 
             <div className="flex justify-center">
@@ -269,7 +264,7 @@ export default function Home() {
                 })}
                 href="/configure/upload"
               >
-                Create your case now <ArrowRight className="h-4 w-4 ml-1.5" />
+                Crie sua capa <ArrowRight className="h-4 w-4 ml-1.5" />
               </Link>
             </div>
           </ul>

@@ -18,7 +18,7 @@ const NavBar = async () => {
       <MaxWidthWrapper>
         <div className="flex h-14 items-center justify-between border-b border-zinc-200 ">
           <Link href="/" className="flex z-40 font-semibold">
-            case<span className="text-purple-600">cobra</span>
+            Cases<span className="text-purple-600">|COM</span>
           </Link>
 
           <div className="h-full flex items-center space-x-4">
@@ -31,7 +31,7 @@ const NavBar = async () => {
                     variant: "ghost",
                   })}
                 >
-                  Sign out
+                  Logout
                 </Link>
                 {isAdmin && (
                   <Link
@@ -51,7 +51,7 @@ const NavBar = async () => {
                     className: "hidden sm:flex items-center gap-1",
                   })}
                 >
-                  Create case
+                  Crie sua capa
                   <ArrowRight className="ml-1.5 h-5 w-5" />
                 </Link>
               </>
@@ -64,7 +64,7 @@ const NavBar = async () => {
                     variant: "ghost",
                   })}
                 >
-                  Sign up
+                  Registre-se
                 </Link>
                 <Link
                   href="/api/auth/login"
@@ -86,7 +86,7 @@ const NavBar = async () => {
                     className: "hidden sm:flex items-center gap-1",
                   })}
                 >
-                  Create case
+                  Crie sua capa
                   <ArrowRight className="ml-1.5 h-5 w-5" />
                 </Link>
               </>
