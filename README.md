@@ -1,6 +1,7 @@
 ## Projeto em desenvolvimento
 
- [Acesse]([https://nextjs.org/](https://case-commerce.vercel.app/)) para ver o andamento: 
+Acesse para ver o andamento: 
+https://case-commerce.vercel.app/
 
 ## Rode o projeto localmente
 
